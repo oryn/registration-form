@@ -2,34 +2,35 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Want to go to Mars?</title>
+  <title>want to go to mars?</title>
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 </head>
 <body>
-  <form class="max-length" action="https://formspree.io/bradlet@algonquincollege.com" method="POST">
-    <h1 class="normal pad-t-2 push-0 gutter">Want to go to Mars?</h1>
-    <p class="pad-t mega gutter">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-    <fieldset class="push-1-2">
-      <legend class="gutter normal italic giga push-1-2">Personal details</legend>
+
+  <form class="max-length" method="POST" action="https://formspree.io/muxl0001@algonquinlive.com">
+    <h1 class="pad-t normal push-0 gutter">Want to go to Mars?</h1>
+    <p class="pad-t mega gutter-1-2">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    <fieldset>
+      <legend class="italic unit giga push-1-2 gutter-1-2">Personal details</legend>
       <div class="grid">
-        <div class="push pad-top-quarter unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter">
+        <div class="push pad-t-1 unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
           <label for="name">Name</label>
-          <input id="name" name="name">
+          <input id="name">
         </div>
-        <div class="gutter push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <div class="push pad-t-1 unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
           <label for="age">Age</label>
-          <input id="age" name="age" type="number">
+          <input id="age">
         </div>
-        <div class="gutter push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <div class="push pad-t-1 unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
           <label for="email">Email</label>
-          <input id="email" name="email">
+          <input id="email" type="email" placeholder="me@me.com" name="email">
         </div>
-        <div class="gutter push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <div class="push pad-t-1 unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
           <label for="physical-fitness">Physical fitness</label>
           <select id="physical-fitness" name="physical-fitness">
             <option>Super-human</option>
@@ -38,23 +39,24 @@
             <option>A little couch-potato-y</option>
           </select>
         </div>
-        <div class="gutter unit xs-1 push-1-2">
+        <div class="push pad-t-1 unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-2 push-0">
           <label for="address">Address</label>
-          <textarea id="address" rows="2" cols="40" name="address"></textarea>
+          <textarea id="address" rows="3" cols="40" name="address"></textarea>
         </div>
       </div>
     </fieldset>
-    <fieldset class="push-1">
-      <legend class="gutter normal italic giga push">Mission statement</legend>
-      <div class="push gutter">
-        <label for="why-do-you-want-to-go-to-mars">Why do you want to go to Mars?</label>
-        <textarea id="why-do-you-want-to-go-to-mars" rows="2" cols="40" name="why-do-you-want-to-go-to-mars"></textarea>
+    <fieldset>
+      <legend class="normal italic unit gutter-1-2 giga">Mission statement</legend>
+      <div class="push pad-t-1-2 unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-2">
+        <label for="why">Why do you want to go to Mars?</label>
+        <textarea id="why" rows="3" cols="30" name="why"></textarea>
       </div>
       <div class="push-1 gutter center">
-        <button type="submit" class="btn center bold">Register for the trip!</button>
+        <button class="btn center bold" type="submit">Register for the trip!</button>
       </div>
     </fieldset>
     <input type="hidden" name="_subject" value="Request to join the mission">
   </form>
+
 </body>
 </html>
